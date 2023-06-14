@@ -18,13 +18,13 @@ public class Test04 {
 		
 		System.out.print("입력한 점수는 "+score+"입니다.");
 		
-		if(score >= 90) {         //if(빈칸)
+		if(score >= 90 && score <= 100)  {         //if(빈칸)
 			grade = 'A';
-		} else if(score >= 80) {	//if(빈칸)
+		} else if(score >= 80 && score < 90) {	//if(빈칸)
 			grade = 'B';
-		} else if(score >= 70) {	//if(빈칸)
+		} else if(score >= 70 && score < 80) {	//if(빈칸)
 			grade = 'C';
-		} else if(score >= 60) {	//if(빈칸)
+		} else if(score >= 60 && score < 70) {	//if(빈칸)
 			grade = 'D';
 		} else {
 			grade = 'F';

@@ -11,7 +11,7 @@ public class Test07 {
 		
 		for(int k=1 ; k<=10 ; k++) {
 			
-			if(k % 2 == 0 || k % 3 == 0) { //빈칸
+			if(k % 2 == 0 || k % 3 == 0) { //빈칸, 동시에 만족 X ||(또는) 사용
 				total += k;
 			}
 		}

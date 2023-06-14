@@ -19,7 +19,7 @@ public class Test06 {
 		int y = sc.nextInt();
 		
 		String result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
-		//바로위 빈칸
+		//바로위 빈칸 (result가 들어가야 하며, =(대입)이 되는 ""문자열, 즉 String
 		System.out.println(result);
 	}
 

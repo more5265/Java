@@ -9,15 +9,17 @@ public class Test01 {
 	
 	public static void main(String[] args) {
 		
-		char var1 = 'A';
-		int var2 = 100;
+		char var1 = 'A'; //
+		int var2 = 100; //byte , short, int,
 		long var3 = 2147483648L;
 		float var4 = 3.14f;
 		double var5 = 3.14159;
 		boolean var6 = true;
 		boolean var7 = false;
-		String var8 = "hello";
-		Object var9 = null;    //앞쪽 전부 빈칸
+		String var8 = "hello"; //""문자열
+		String var9 = null;    // Object, String
+		
+		//앞쪽 전부 빈칸
 		
 		
 		

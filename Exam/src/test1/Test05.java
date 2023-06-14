@@ -17,7 +17,7 @@ public class Test05 {
 		
 		System.out.println("입력한 점수는 "+score+"입니다.");
 		
-		switch(score / 10) {      //빈칸
+		switch(score / 10) {      //100점일 때 10 나누면 case10
 		case 10:
 		case 9:
 			System.out.println("A 입니다.");

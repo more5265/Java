@@ -7,13 +7,13 @@ package test1;
 public class Test03 {
 	public static void main(String[] args) {
 		
-		int num = 1;   //빈칸
-		int result;		//빈칸
+		int num = 1;   //빈칸 (변수 선언이 나와야 함)
+		int result = 0;		//빈칸
 		
-		result = num++;
+		result = num++; //대입먼저, 그다음 증가연산
 		System.out.println("result : " +result);
 		
-		result = ++num;
+		result = ++num; //증가연산 먼저, 그다음 대입연산
 		System.out.println("result : " +result);
 		
 		result = num--;
