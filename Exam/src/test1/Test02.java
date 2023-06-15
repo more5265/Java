@@ -27,7 +27,7 @@ public class Test02 {
 		name = sc.next();  //빈칸
 				
 		int age = year - birth;
-		
+		          //        string                    %f (실수)
 		System.out.printf("%s님 안녕하세요. \n당신은 올해 만 %d세 입니다.", name, age);
 		          //위 빈칸 (문자열)                    (숫자열)
 		sc.close();

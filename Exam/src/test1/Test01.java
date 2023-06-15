@@ -21,8 +21,6 @@ public class Test01 {
 		
 		//앞쪽 전부 빈칸
 		
-		
-		
 		System.out.println("var1 :" + var1);
 		System.out.println("var2 :" + var2);
 		System.out.println("var3 :" + var3);
