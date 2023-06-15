@@ -22,7 +22,7 @@ public class MethodOverloadTest {
 		
 	}
 	
-	// 오버로딩 메서드 정의
+	// 오버로딩 메서드 정
 	public static int plus(int a) {
 		return a + a;
 		

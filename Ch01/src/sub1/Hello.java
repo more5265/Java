@@ -13,9 +13,10 @@ public class Hello {
 		// 기본출력
 		System.out.println("Hello World~");
 		System.out.println("Hello Java~");
+		System.out.println("Hi");
 		
 		
-		// 한줄출력
+		// 한줄출력n
 		System.out.print("Hello ");
 		System.out.print("Korea~");
 		
