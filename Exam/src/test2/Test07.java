@@ -27,8 +27,8 @@ public class Test07 {
 		
 		while (true) {
 			
-			if(a % temp == 0 && b % temp == 0) {
-				break; //빈칸
+			if(a % temp == 0 && b % temp == 0) { //둘다 참일 때까지  반복
+				break; //////빈칸
 			}
 			temp--;
 		}

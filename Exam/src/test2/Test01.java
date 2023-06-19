@@ -16,10 +16,10 @@ public class Test01 {
 			for(col = 0; col <= row; col++) {
 				
 				System.out.print(str[col]); //빈칸
-				
+				                  //반복 변수
 			}
 			
-			System.out.println("\n");
+			System.out.print("\n");
 		}
 	}
 

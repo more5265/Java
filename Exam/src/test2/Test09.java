@@ -3,6 +3,11 @@ package test2;
  * 날짜 : 2023/06/15
  * 이름 : 이황성
  * 내용 : 자바 최대공약수 재귀 메서드 연습문제
+ * 
+ * 유클리드 호제법
+ *  - 두 개의 자연수에 다른 최대공약수를 구하는 대표적인 기법
+ *  - 두 자연수 A, B에 대해서 A>B일때 A를 B로 나눈 나머지를 R이라고 하면
+ *  	A와 B의 최대공약수는 B와 R의 최대공약수와 같다.
  */
 public class Test09 {
 	public static void main(String[] args) {
@@ -19,7 +24,7 @@ public class Test09 {
 			return b;
 		}else {
 			return gcd(b, a%b);
-			
+			             //빈칸
 		}
 	}
 

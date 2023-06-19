@@ -24,18 +24,26 @@ public class Test04 {
 			
 			for (int j = i+1; j<5; j++) {
 				
-				if (arr[i] > arr[j]) {
+				if (arr[i] > arr[j]) { //1라운드. 1자리랑 2자리 비교하고 교환
 					int temp = arr[j];
-					arr[j] = arr[i]; //빈칸
+					arr[j] = arr[i]; //////빈칸
 					arr[i] = temp;
 				}
 			}
 		}
 		
 		// 정렬된 배열 출력하기
-		for (int n : arr) { //for문 빈칸
+		for (int n : arr) { //////for문 빈칸
 				System.out.print(n+" ");
 	}
 
 } 
 }
+//4, 2, 1, 5, 3
+//2, 4, 1, 5, 3
+//1, 4, 2, 5, 3 - 1라운드 종료. 1보다 작은게 없기때문에 반복
+
+//1, 2, 4, 5, 3
+
+//배열의 기능중 선택 정렬을 해주는 기능이 있지만, 코딩 이해도에 있어서 위 코딩을 읽을줄 알아야 한다.
+//외우는 것.

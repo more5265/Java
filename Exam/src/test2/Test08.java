@@ -17,8 +17,8 @@ public class Test08 {
 		if (n <= 1) {
 			return 1;
 			
-			}
+			}      //재귀함수 (일종의 반복문)
 		return n * factorial(n-1);
-	}
+	}                      //빈칸
 
 }

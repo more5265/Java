@@ -19,6 +19,8 @@ public class Test10 {
 		}
 		
 		return fibo(n-1) + fibo(n-2);
-	}
+	}              //빈칸      //빈칸
 	
 }
+//f(2) = f(1) + f(0)
+// n    =  (n-1)  + (n-2)

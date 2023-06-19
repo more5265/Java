@@ -19,13 +19,13 @@ public class Test03 {
 		//배열의 원소를 역순으로 정렬
 		for (int j = 0; j < 5; j++) {
 			int temp = arr[j];
-			arr[j] = arr[9 - j];
+			arr[j] = arr[9 - j]; /////10을 1자리로, 1을 10자리로
 			arr[9 - j] = temp; //temp 순서를 바꿈
 			
 		
 		}
 		//역순으로 정렬된 배열 출력
-		for(int n : arr) {
+		for(int n : arr) { ////빈칸
 			System.out.print(n+", ");
 		}
 	}

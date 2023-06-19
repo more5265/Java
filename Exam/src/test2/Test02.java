@@ -12,9 +12,9 @@ public class Test02 {
 		int maxNum = arr[0];
 		
 		for(int i = 0; i < 8; i++) {
-			
+			              //arr.length
 			if(maxNum < arr[i]) {
-				maxNum = arr[i]; //빈칸
+				maxNum = arr[i]; ///////빈칸 arr의 [원소] 
 			}
 		}
 		
@@ -23,3 +23,4 @@ public class Test02 {
 	
 
 }
+///
