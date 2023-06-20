@@ -15,7 +15,7 @@ public class EncapsuleTest {
 	
 	public static void main(String[] args) {
 		
-		// Car 객체 생성, 초기화 (1
+		// Car 객체 생성, 초기화 (1)
 		Car sonata = new Car("소나타", "흰색", 10); //내부에 있어야 할 내용이 외부에 있는 상태, 캡슐화 필요 (2)
 		                     //↑(8) 여기에 적는다(생성자 호출)
 		
