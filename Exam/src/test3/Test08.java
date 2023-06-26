@@ -19,11 +19,11 @@ class Product {
 		this.category = category;
 		this.price = price;
 	}
-	public void ???() {}
+	public void () {}
 	
 }
 
-class Television ??? {
+class Television  {
 	public Television(String category, int price) {
 		super(category, price);
 	}

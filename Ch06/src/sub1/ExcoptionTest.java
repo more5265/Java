@@ -4,6 +4,12 @@ package sub1;
  * 이름 : 이황성
  * 내용 : Java 예외처리 실습하기 (p464)
  * 
+ * 예외처리(Exception)
+ * 	- 예외는 프로그램 실행중에 발성하는 모든 에러(Error)
+ * 	- 실행 중(Runtime) 발생하는 예외와 컴파일(compileTime)에 발생하는 예외 처리
+ * 	- 메서드 내부에 발생하는 예외를 호출한 쪽으로 throws
+ *	- 사용자가 생성한 예외를 throw
+ *(중요)
  */
 public class ExcoptionTest {
 	public static void main(String[] args) throws ClassNotFoundException {
