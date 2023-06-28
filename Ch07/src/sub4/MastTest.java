@@ -11,21 +11,21 @@ public class MastTest {
 		//Math math = new Math(); X
 		
 		// 기본 메서드
-		System.out.println("절대값 : " + Math.abs(-5));
+		System.out.println("절대값 : " + Math.abs(-5)); //절대값5
 		
-		System.out.println("재곱근 : " + Math.sqrt(9));
+		System.out.println("제곱근 : " + Math.sqrt(9)); //제곱근 3.0
 		
-		System.out.println("올림값 : " + Math.ceil(1.2));
+		System.out.println("올림값 : " + Math.ceil(1.2)); // 올림값 2.0, 사용빈도 많음
 		
-		System.out.println("올림값 : " + Math.ceil(1.8)); //사용빈도 많음
+		System.out.println("올림값 : " + Math.ceil(1.8)); // 2.0
 		
-		System.out.println("내림값 : " + Math.floor(1.2)); //사용빈도 많음
+		System.out.println("내림값 : " + Math.floor(1.2)); //내림값 1.0, 사용빈도 많음
 		
-		System.out.println("내림값 : " + Math.floor(1.8));
+		System.out.println("내림값 : " + Math.floor(1.8)); // 1.0
 		
-		System.out.println("반올림 : " + Math.round(1.2));
+		System.out.println("반올림 : " + Math.round(1.2)); // 1
 		
-		System.out.println("반올림 : " + Math.round(1.8));
+		System.out.println("반올림 : " + Math.round(1.8)); // 2
 		
 		// random 메서드
 		double num1 = Math.random();
