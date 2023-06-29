@@ -9,7 +9,8 @@ package sub1;
  * 	- 실행 중(Runtime) 발생하는 예외와 컴파일(compileTime)에 발생하는 예외 처리
  * 	- 메서드 내부에 발생하는 예외를 호출한 쪽으로 throws
  *	- 사용자가 생성한 예외를 throw
- *(중요)
+ *(★중요★)
+ *
  */
 public class ExcoptionTest {
 	public static void main(String[] args) throws ClassNotFoundException {
@@ -38,10 +39,10 @@ public class ExcoptionTest {
 		}
 		
 
-		System.out.println("rs1 : "+rs1);
-		System.out.println("rs2 : "+rs2);
-		System.out.println("rs3 : "+rs3);
-		System.out.println("rs4 : "+rs4); // (1) rs4 빨간줄
+		System.out.println("rs1 : " +rs1);
+		System.out.println("rs2 : " +rs2);
+		System.out.println("rs3 : " +rs3);
+		System.out.println("rs4 : " +rs4); // (1) rs4 빨간줄
 		
 		// 예외 상황 2 : 배열의 인덱스 범위를 벗어났을 때
 		int[] arr = {1, 2, 3, 4, 5};
