@@ -4,7 +4,7 @@ package sub1;
 public class Car {
 	
 	// 필드(속성) 변수선언
-	String name; //이름들은 짓기나름
+	String name; //이름은 알아서 짓기
 	String color;
 	int speed;
 	

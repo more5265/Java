@@ -8,6 +8,7 @@ package sub9;
  * 	- 클래스간의 공통의 표준 규격을 위한 설계 문법
  * 	- 인터페이스를 활용해서 객체간 결합도를 완화하는 효과(다형성)
  *	- 부수적으로 다중상속 효과
+ *
  */
 
 class Tv extends Computer implements Internet {
