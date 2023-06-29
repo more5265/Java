@@ -9,14 +9,14 @@ public class MultidimensionalArrayByValueListExample {
 				        {76, 88}};
 		
 		//배열의 길이 (scores.length 는 배열 scores 의 길이를 나타내는 속성)
-		System.out.println("1차원 배열 길이(반의 수): " + scores.length);
-		System.out.println("2차원 배열 길이(첫 번째 반의 학생 수): " + scores[0].length);
-		System.out.println("2차원 배열 길이(두 번째 반의 학생 수): " + scores[1].length);
+		System.out.println("1차원 배열 길이(반의 수): " +scores.length);
+		System.out.println("2차원 배열 길이(첫 번째 반의 학생 수): " +scores[0].length);
+		System.out.println("2차원 배열 길이(두 번째 반의 학생 수): " +scores[1].length);
 		
 		//첫 번째 반의 세 번째 학생의 점수 읽기
-		System.out.println("scores[0][2]: " + scores[0][2]);
+		System.out.println("scores[0][2]: " +scores[0][2]);
 		//두 번째 반의 두 번째 학생의 점수 읽기
-		System.out.println("scores[1][1]: " + scores[1][1]);
+		System.out.println("scores[1][1]: " +scores[1][1]);
 		
 		//첫 번째 반의 평균 점수 구하기
 		int class1Sum = 0;
@@ -24,7 +24,7 @@ public class MultidimensionalArrayByValueListExample {
 			class1Sum += scores[0][i];
 		}
 		float class1Avg = (float) class1Sum / scores[0].length;
-		System.out.println("첫 번째 반의 평균 점수: " + class1Avg );
+		System.out.println("첫 번째 반의 평균 점수: " +class1Avg );
 		
 		//두 번째 반의 평균 점수 구하기
 		int class2Sum = 0;
@@ -32,7 +32,7 @@ public class MultidimensionalArrayByValueListExample {
 			class2Sum += scores[1][i];
 		}
 		float class2Avg = (float) class2Sum / scores[1].length;
-		System.out.println("두 번째 반의 평균 점수: " + class2Avg);
+		System.out.println("두 번째 반의 평균 점수: " +class2Avg);
 	
 		//전체 학생의 평균 점수 구하기
 		int totalStudent = 0;
@@ -44,7 +44,7 @@ public class MultidimensionalArrayByValueListExample {
 			}
 		}
 		float totalAvg = (float) totalSum / totalStudent;
-		System.out.println("전체 학생의 평균 점수 : " + totalAvg);
+		System.out.println("전체 학생의 평균 점수 : " +totalAvg);
 	}
 }
 
