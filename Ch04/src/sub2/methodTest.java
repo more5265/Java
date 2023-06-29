@@ -51,7 +51,7 @@ public class methodTest { //클래스 구조 안에 메서드가 들어가있음
 		
 		for(int k=start; k<=end ; k++) {
 			
-			total += k;
+		total += k;
 		}
 		
 		return total;
