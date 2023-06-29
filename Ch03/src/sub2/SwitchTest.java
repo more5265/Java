@@ -6,7 +6,6 @@ import java.util.Scanner;
  * 날짜 : 2023/06/13
  * 이름 : 이황성
  * 내용 : Java 조건문 switch 실습하기
- * 
  */
 public class SwitchTest {
 	
@@ -18,7 +17,7 @@ public class SwitchTest {
 		Scanner scan = new Scanner(System.in);
 		int number = scan.nextInt();
 		
-		System.out.println("입력한 숫자 : " + number);
+		System.out.println("입력한 숫자  : " + number);
 		
 		switch(number % 2) {
 		

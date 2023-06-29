@@ -5,7 +5,6 @@ package sub1;
  * 이름 : 이황성
  * 내용 : Ch03.Java 조건문 If 실습하기 (책은 ch04)
  * 
- * 
  */
 public class IfTest {
 	
