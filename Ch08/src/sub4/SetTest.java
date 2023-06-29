@@ -12,6 +12,7 @@ import java.util.Set;
  * 집합(Set)
  * 	- 입력된 데이터의 순서를 고려하지 않고, 중복을 허용하지 않는 자료구조
  * 	- 중복된 데이터를 제거 또는 데이터 존재여부 확인
+ * 
  */
 public class SetTest {
 	public static void main(String[] args) {

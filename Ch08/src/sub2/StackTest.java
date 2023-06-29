@@ -10,7 +10,6 @@ import java.util.Stack;
  * 스택(Stack)
  * 	- 스택은 데이터가 순서대로 쌓이는 자료구조
  * 	- 변수 선언과 메서드 실행에 사용
- * 	- 
  */
 public class StackTest {
 	public static void main(String[] args) {
