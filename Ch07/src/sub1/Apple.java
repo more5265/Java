@@ -13,9 +13,9 @@ public class Apple {
 	@Override
 	public String toString() {
 		
-		System.out.println("객체 해시값 : " + hashCode());
-		System.out.println("원산지 : " + this.country);
-		System.out.println("가격 : " + this.price);
+		System.out.println("객체 해시값 : " +hashCode());
+		System.out.println("원산지 : " +this.country);
+		System.out.println("가격 : " +this.price);
 		return super.toString();
 	}
 

@@ -8,7 +8,6 @@ import java.util.Date;
  * 날짜 : 2023/06/27
  * 이름 : 이황성
  * 내용 : Java Date 클래스 실습하기 (p532)
- * 
  */
 public class DateTest {
 	public static void main(String[] args) {
@@ -32,7 +31,7 @@ public class DateTest {
 		int min = cal.get(Calendar.MINUTE);
 		int sec = cal.get(Calendar.SECOND);
 		
-		System.out.printf("%d-%d-%d %d:%d:%d", year, month, d, hour, min, sec);
+		System.out.printf("%d-%d-%d %d:%d:%d", year , month , d , hour , min , sec );
 		
 	}
 }

@@ -5,7 +5,7 @@ package sub4;
  * 내용 : Java Math 클래스 실습하기 (p528)
  * 
  */
-public class MastTest {
+public class MathTest {
 	public static void main(String[] args) {
 		
 		//Math math = new Math(); X
