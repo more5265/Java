@@ -95,7 +95,7 @@ public class OperatorTest {
 		System.out.println("res2 : " + res2); // true
 		System.out.println("res3 : " + res3); // true
 		System.out.println("res4 : " + res4); // false
-		System.out.println("res5 : " + res5); // ture
+		System.out.println("res5 : " + res5); // true
 		
 		
 	}

@@ -12,13 +12,14 @@ package sub1;
  * 상수(constant)
  * 	- 최초 저장된 데이터로 고정되는 변수
  * 	- 대문자로 표기
+ * 
  */
 
 public class VariableTest {
 	
 	public static void main(String[] args) {
 		
-		// 변수
+		// 변수 설정
 		int a = 3;
 		int b = 7;
 		

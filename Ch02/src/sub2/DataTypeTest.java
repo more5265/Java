@@ -7,7 +7,6 @@ package sub2;
  * 자료형(Data Type)
  *  - 변수에 저장되는 데이터의 종류와 크기를 나타낸 키워드
  *  - 자료형은 기본형과 참조형(객체)으로 나뉨
- *  
  */
 public class DataTypeTest {
 
@@ -33,14 +32,14 @@ public class DataTypeTest {
 		System.out.println("var2 : " + var2);
 		
 		// 논리형
-		boolean data1 = true; // 많이씀
+		boolean data1 = true; // (많이씀)
 		boolean data2 = false;
 		
 		System.out.println("data1 : " + data1);
 		System.out.println("data2 : " + data2);
 		
 		
-		// 문자형 (활용도 떨어짐)
+		// 문자형 (활용도 떨어짐, 숫자로 표현)
 		char c1 = 'A';
 		char c2 = '가';
 		
@@ -48,7 +47,7 @@ public class DataTypeTest {
 		System.out.println("c2 : " + c2);
 		
 		// 문자열
-		String str1 = "A"; // 많이씀, int 다음으로. 객체라서 대문자
+		String str1 = "A"; // (많이사용) int 다음으로. 객체라서 대문자
 		String str2 = "가";
 		String str3 = "Apple";
 		String str4 = "가을";
