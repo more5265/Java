@@ -3,7 +3,7 @@ package sub1;
 /**
  * 날짜 : 2023/06/12
  * 이름 : 이황성
- * 내용 : Ch01.Java 개발환경 구축
+ * 내용 : Ch01.Java 개발환경 구축 실습
  */
 public class Hello {
 	
@@ -13,7 +13,7 @@ public class Hello {
 		// 기본출력
 		System.out.println("Hello World~");
 		System.out.println("Hello Java~");
-		System.out.println("Hi");
+		System.out.println("Hi~");
 		
 		
 		// 한줄출력n
@@ -25,7 +25,7 @@ public class Hello {
 		System.out.print("Hello Busan~");
 		System.out.print("\n");
 		
-		//println 및 print 활용
+		//println, print 활용
 		int x = 10;
 		int y = 20;
 		
