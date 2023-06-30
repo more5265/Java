@@ -17,7 +17,7 @@ class Member {
 		this.name = name;
 		this.age = age;
 	}
-	@Override
+	@Override		//
 	public String toString() { //
 		return id+","+name+","+age;
 	}
@@ -29,7 +29,7 @@ public class Test09 {
 		Member m1 = new Member("hong", "홍길동", 30);
 		Member m2 = new Member("lee", "이순신", 40);
 		Member m3 = new Member("kim", "김유신", 50);
-		
+				//
 		List<Member> memberList = new ArrayList<>(); //
 		memberList.add(m1);
 		memberList.add(m2);

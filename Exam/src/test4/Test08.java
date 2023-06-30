@@ -15,16 +15,16 @@ public class Test08 {
 			System.out.println(makeLotto());
 		}
 	}
-
+					//
 	public static Set<Integer> makeLotto() { //1 리턴값 확인 후 작성
 		
 		Set<Integer> lottoSet = new HashSet<>();
 		
 		for(;;) { //무한반복
 			int num = (int) Math.ceil(Math.random() * 45); //1~45 정수 임의의 코드
-					
+									//
 					lottoSet.add(num);
-					
+						//
 					if(lottoSet.size() == 6	 ) {
 						break;
 					}
