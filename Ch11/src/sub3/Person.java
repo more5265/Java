@@ -5,15 +5,13 @@ public class Person {
 	private String name;
 	private int age;
 	
-	// 생성자
+	//생성자
 	public Person(String name, int age) {
 		super();
 		this.name = name;
 		this.age = age;
 	}
-	
-	
-	// getter, setter
+	//getting, setting
 	public String getName() {
 		return name;
 	}
@@ -26,5 +24,4 @@ public class Person {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
 }
