@@ -1,4 +1,4 @@
-package sub3;
+package test1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -24,7 +24,7 @@ public class InsertTest {
 			Statement stmt = conn.createStatement();
 			
 			//4. SQL 실행
-			String sql = "INSERT INTO `user1` VALUES ('', '')";
+			String sql = "INSERT INTO `User1` VALUES ('j105', '강감찬', '010-1234-1005', 33)";
 			stmt.executeUpdate(sql);
 			
 			//5. 결과 처리 (SETECT인 경우)
