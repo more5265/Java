@@ -27,7 +27,7 @@ import java.util.List;
 
 
  // VO개체 : 테이블 개체(entity)가 변환되는 객체
-class User1VO { 
+class UserVO { 
 	private String uid;
 	private String name;
 	private String hp;
@@ -71,7 +71,7 @@ public class PreparedSelectTest {
 		String pass = "1234";
 		
 		// 결과처리에 사용할 리스트 생성
-		List<User1VO> users = new ArrayList<>();
+		List<UserVO> users = new ArrayList<>();
 		
 		
 		try {
@@ -93,7 +93,7 @@ public class PreparedSelectTest {
 			while(rs.next()) {		
 				
 				// VO객체 생성 및 초기화
-				User1VO vo = new User1VO();
+				UserVO vo = new UserVO();
 				vo.setUid(rs.getString(1));
 				vo.setName(rs.getString(2));
 				vo.setHp(rs.getString(3));
@@ -115,7 +115,7 @@ public class PreparedSelectTest {
 		}
 		
 		// List 결과출력 (배열 반복문)
-		for(User1VO vo : users) {
+		for(UserVO vo : users) {
 			System.out.println("---------------------");
 			System.out.println("아이디 : " + vo.getUid());
 			System.out.println("이름 : " + vo.getName());
